@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/back_items"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        >
+        <RadioButton
+            android:id="@+id/radioToDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="@android:color/holo_green_dark"
+            />
+        <TextView
+            android:id="@+id/nameToDo"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:text="Doing my homework"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/darker_gray"
+            android:fontFamily="@font/nunitoregular"
+            />
+        <ImageView
+            android:id="@+id/imgDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_check_24"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
